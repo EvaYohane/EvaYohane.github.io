@@ -12,9 +12,25 @@
         <h1>EvaYohane Livestream</h1>
         <p>Welcome, the stream will start soon!</p>
             <div class="Stream">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/HlDjAnC534g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-                <li><a href="https://www.youtube.com/live_chat?v=HlDjAnC534g" target ="null">Click to chat!</a></li>
-        <script src="" async defer></script>
+<!-- Add a placeholder for the Twitch embed -->
+<div id="twitch-embed"></div>
+
+<!-- Load the Twitch embed script -->
+<script src="https://player.twitch.tv/js/embed/v1.js"></script>
+
+<!-- Create a Twitch.Player object. This will render within the placeholder div -->
+<script type="text/javascript">
+  new Twitch.Player("twitch-embed", {
+    width: 900,
+    height: 500,
+    channel: "evayohane"
+  });
+</script>
+<iframe
+  id="chat_embed"
+  src="https://www.twitch.tv/embed/evayohane/chat?parent=http://EvaYohane.github.io"
+  height="500"
+  width="350">
+</iframe>
     </body>
 </html>
