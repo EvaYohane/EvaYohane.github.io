@@ -3,6 +3,7 @@ ul {
     margin: 0;
     padding: 0;
     position: relative;
+    top: -10px;
   }
   /* Add a black background color to the top navigation */
 ul {
@@ -31,10 +32,14 @@ ul {
     background-color: #4CAF50;
     color: white;
   }
-  div.Chat {
+  #chat {
     position: absolute;
-    left: 1450px;
-    width: 0px;
-    height: 0px;
-    top: 100px;
+    left: 1512px;
+    width: 400px;
+    height: 850px;
+    top: 60px;
+    right: 10px;
+  }
+  #h1 {
+      color: #eaeaea;
   }
