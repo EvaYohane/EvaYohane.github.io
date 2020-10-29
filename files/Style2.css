@@ -2,6 +2,7 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    position: relative;
   }
   /* Add a black background color to the top navigation */
 ul {
@@ -29,4 +30,11 @@ ul {
   ul a.active {
     background-color: #4CAF50;
     color: white;
+  }
+  div.Chat {
+    position: absolute;
+    left: 1450px;
+    width: 0px;
+    height: 0px;
+    top: 100px;
   }
