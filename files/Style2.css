@@ -34,12 +34,8 @@ ul {
   }
   #chat {
     position: absolute;
-    left: 1512px;
-    width: 400px;
-    height: 850px;
+    left: 1425px;
+    width: 480px;
+    height: 900px;
     top: 60px;
-    right: 10px;
-  }
-  #h1 {
-      color: #eaeaea;
   }
