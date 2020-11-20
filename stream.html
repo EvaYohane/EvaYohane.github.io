@@ -29,23 +29,22 @@
           <div id="h1">
               </div>
 <!-- Add a placeholder for the Twitch embed -->
-<div id="twitch-embed">
 
-<div id="twitch-embed"></div>
+<div id="twitch">
 <!-- Load the Twitch embed script -->
 <script src="https://player.twitch.tv/js/embed/v1.js"></script>
 
-<div class="stream">
-<!-- Create a Twitch.Player object. This will render within the placeholder div -->
-<script type="text/javascript">
-  new Twitch.Player("twitch-embed", {
-    height:916,
-    width: 1534,
-    channel: "evayohane"
-  });
-</script>
+    <!-- Create a Twitch.Player object. This will render within the placeholder div -->
+    <script type="text/javascript">
+      new Twitch.Player("twitch", {
+        height: "955px",
+        width: "1560px",
+        channel: "evayohane"
+      });
+    </script>
 </div>
 <div id="chat">
   <script id="cid0020000265006350899" data-cfasync="false" async src="//st.chatango.com/js/gz/emb.js" style="width: 100%;height: 100%;">{"handle":"yohaneeva","arch":"js","styles":{"a":"6600cc","b":100,"c":"FFFFFF","d":"ffffff","e":"000000","g":"e0e0e0","h":"000000","j":"ffffff","k":"383838","l":"383838","m":"383838","n":"FFFFFF","p":"10","q":"383838","r":100,"usricon":0.85,"surl":0,"fwtickm":1}}</script>
 </div>
+</body>
 </html>

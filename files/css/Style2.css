@@ -34,12 +34,9 @@ ul {
   }
   #chat {
     position: absolute;
-    left: 1545px;
-    width: 372px;
-    height: 915px;
+    left: 1567px;
+    width: 350px;
+    height: 970px;
     top: 8px;
   }
-.stream {
-  position: relative;
-  left: 100px;
-}
+
